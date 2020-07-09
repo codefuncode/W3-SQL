@@ -1,0 +1,88 @@
+Tablas de bases de datos
+
+Una base de datos suele contener una o más tablas. Cada tabla se identifica con un nombre (por ejemplo, 'Clientes' u 'Pedidos'). Las tablas contienen registros (filas) con datos.
+
+En este tutorial usaremos la conocida base de datos de ejemplo Northwind (incluida en MS Access y MS SQL Server).
+
+A continuación se muestra una selección de la tabla 'Clientes':
+
+===========
+CustomerID 	
+CustomerName 	
+ContactName 	
+Address 	
+City 	
+PostalCode 	
+Country
+===========
+
+1           
+Alfreds Futterkiste 	
+Maria Anders 	
+Obere Str. 57 	
+Berlin 	
+12209 	
+Germany
+
+2 	
+Ana Trujillo Emparedados y helados 	
+Ana Trujillo 	
+Avda. de la Constitución 
+2222 	
+México D.F. 	
+05021 	
+Mexico
+
+3 	
+Antonio Moreno Taquería 	
+Antonio Moreno 	
+Mataderos 2312 	
+México D.F. 	
+05023 	
+Mexico
+
+4 
+Around the Horn 	
+Thomas Hardy 	
+120 Hanover Sq. 	
+London 	WA1 1
+DP 	
+UK
+
+5 	
+Berglunds 
+snabbköp 	
+Christina Berglund
+Berguvsvägen 8 	
+Luleå 	S-958 22 	
+Sweden
+
+
+==============================================================================================
+
+Manten eso en mente...
+
+Las palabras clave SQL NO distinguen entre mayúsculas y minúsculas: select es lo mismo que SELECT
+
+En este tutorial escribiremos todas las palabras clave SQL en mayúsculas.
+Punto y coma después de las declaraciones SQL?
+
+Algunos sistemas de bases de datos requieren un punto y coma al final de cada instrucción SQL.
+
+El punto y coma es la forma estándar de separar cada instrucción SQL en sistemas de bases de datos que permiten ejecutar más de una instrucción SQL en la misma llamada al servidor.
+
+En este tutorial, usaremos punto y coma al final de cada instrucción SQL.
+Algunos de los comandos SQL más importantes
+
+
+    SELECT: 			extrae datos de una base de datos
+    UPDATE: 			actualiza los datos en una base de datos
+    DELETE: 			elimina datos de una base de datos
+    INSERTAR INTO - 	inserta datos nuevos en una base de datos
+    CREATE DATABASE: 	crea una nueva base de datos
+    ALTER DATABASE: 	modifica una base de datos
+    CREAR TABLE: 		crea una nueva tabla
+    ALTER TABLE - 		modifica una tabla
+    DROP TABLE: 		elimina una tabla
+    CREATE INDEX: 		crea un índice (clave de búsqueda)
+    DROP INDEX  - 		elimina un índice

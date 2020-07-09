@@ -1,0 +1,17 @@
+p {
+    margin-right: 50px;
+    width: 300px;
+    margin-top: -5px;
+    margin-bottom: -2px;
+    /*color: red;*/
+    /*display: inline;*/
+    /*border: 2px solid red;*/
+}
+[type="text"] {
+    width: 500px;
+    /*height: 25px;*/
+    /*border: 2px solid red;*/
+}
+body {
+    padding: 50px;
+}

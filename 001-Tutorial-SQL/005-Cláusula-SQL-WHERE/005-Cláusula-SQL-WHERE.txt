@@ -1,0 +1,22 @@
+
+
+
+
+= 			Igual 
+
+>			Mayor que
+
+<			Menos que
+
+>= 			Mayor o igual
+
+<= 			Menor o igual
+
+<>			No es igual. Nota: En algunas versiones de SQL, este operador puede 			
+			escribirse como !=
+
+BETWEEN 	entre un cierto rango
+
+LIKE 		Buscar un patrón
+
+IN 			Para especificar múltiples valores posibles para una columna
